@@ -1,0 +1,87 @@
+/* Archivo: src/App.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el componente Truck */
+.truck {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  text-align: left;
+  flex: 1 1 calc(50% - 40px); /* Cada camión ocupa el 50% del ancho menos el margen */
+  margin: 20px;
+  max-width: 500px;
+}
+
+.truck h2 {
+  color: #007bff;
+  margin-top: 0;
+}
+
+.truck p {
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Estilos para botones de cargar y descargar */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Estilos para la lista de camiones */
+.truck-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
